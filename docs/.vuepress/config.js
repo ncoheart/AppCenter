@@ -1,6 +1,7 @@
 module.exports = {
     title: '云乡',
     description: '云之幻的软件中心',
+    
     head: [
         ['link', {
             rel: 'icon',
@@ -19,13 +20,16 @@ module.exports = {
         }
     ]],
     themeConfig: {
+        repo: 'Richasy/AppCenter',
+        docsDir: 'docs',
+        docsBranch: 'master',
+        // 默认是 false, 设置为 true 来启用
+        editLinks: true,
+        // 默认为 "Edit this page"
+        editLinkText: '修改页面',
         nav: [{
                 text: '博客',
                 link: 'https://blog.richasy.cn'
-            },
-            {
-                text: 'Github',
-                link: 'https://github.com/Richasy'
             },
             {
                 text: 'BiliBili',
@@ -71,7 +75,7 @@ module.exports = {
                 ]
             }],
             '/document/pictureshare': [{
-                title: 'PICTURE SHARE说明书',
+                title: 'Picture Share 说明书',
                 collapsable: true,
                 children: [
                     ['/document/pictureshare/about', "关于PICTURE SHARE"],
@@ -96,6 +100,7 @@ module.exports = {
                 collapsable: true,
                 children: [
                     ['/document/rss/use', "使用说明"],
+                    ['/document/rss/history', "更新历史"],
                 ]
             }],
         }
