@@ -44,6 +44,7 @@ module.exports = {
                     ['/apps/', "软件说明"],
                     ['/apps/wfa', "Warframe Alerting Prime"],
                     ['/apps/acrmd', "Acrylic Markdown"],
+                    ['/apps/mdlite', "Markdown Lite"],
                     ['/apps/rss', "RSS Stalker"],
                     ['/apps/pictureshare', "Picture Share"],
                 ]
@@ -93,6 +94,14 @@ module.exports = {
                     ['/document/acrmd/shortcut', "快捷操作"],
                     ['/document/acrmd/grammar', "语法综述"],
                     ['/document/acrmd/history', "更新历史"],
+                ]
+            }],
+            '/document/mdlite': [{
+                title: 'Markdown Lite说明书',
+                collapsable: true,
+                children: [
+                    ['/document/mdlite/use', "快速开始"],
+                    ['/document/mdlite/shortcut', "快捷操作"],
                 ]
             }],
             '/document/rss': [{
