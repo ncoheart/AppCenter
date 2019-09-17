@@ -47,6 +47,7 @@ module.exports = {
                     ['/apps/mdlite', "Markdown Lite"],
                     ['/apps/rss', "RSS Stalker"],
                     ['/apps/pictureshare', "Picture Share"],
+                    ['/apps/clean_reader', "Clean Reader"],
                 ]
             }],
             '/document/wfa/qa': [{
@@ -110,6 +111,13 @@ module.exports = {
                 children: [
                     ['/document/rss/use', "使用说明"],
                     ['/document/rss/history', "更新历史"],
+                ]
+            }],
+            '/document/cleanreader': [{
+                title: 'Clean Reader 说明书',
+                collapsable: true,
+                children: [
+                    ['/document/cleanreader/use', "使用说明"],
                 ]
             }],
         }

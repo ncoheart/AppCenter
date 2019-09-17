@@ -793,4 +793,91 @@ Header : {
 
 ---
 
+## 仲裁警报
+
+|        请求地址       |请求方式|请求类型|返回数据|
+|:--------------------------------|:----:|:------|:----:|
+|/**arbitration**|  GET |   无  | JSON |
+
+### 请求结构
+
+```javascript
+Header : {
+    Authorization: 'Bearer xxxxxxxxxxxxxxxxxx'
+}
+```
+
+### 返回结构
+
+```json
+{
+    "activation": "2019-07-12T12:05:00Z",
+    "expiry": "2019-07-12T13:05:00Z",
+    "solnode": "SolNode39",
+    "node": "Everest (Earth)",
+    "name": "Everest [EARTH]",
+    "tile": "Everest",
+    "planet": "Earth",
+    "enemy": "Grineer",
+    "type": "Excavation",
+    "node_type": "NT_MISSION",
+    "archwing": false,
+    "sharkwing": false
+}
+```
+
+### 数据说明
+
+- `type` : 任务名
+
+- `plant/tile` : 星球/地点
+
+- `archwing`/`sharkwing` : 是否为飞行装甲任务
+
+---
+
+## KUVA
+
+|        请求地址       |请求方式|请求类型|返回数据|
+|:--------------------------------|:----:|:------|:----:|
+|/**kuva**|  GET |   无  | JSON |
+
+### 请求结构
+
+```javascript
+Header : {
+    Authorization: 'Bearer xxxxxxxxxxxxxxxxxx'
+}
+```
+
+### 返回结构
+
+```json
+[
+    {
+        "activation": "2019-07-12T12:05:00Z",
+        "expiry": "2019-07-12T13:05:00Z",
+        "solnode": "SolNode51",
+        "node": "Hades (Pluto)",
+        "name": "Hades [Pluto]",
+        "tile": "Hades",
+        "planet": "Pluto",
+        "enemy": "Corpus",
+        "type": "Assassination",
+        "node_type": "NT_MISSION",
+        "archwing": false,
+        "sharkwing": false
+    },
+    ...
+]
+```
+
+### 数据说明
+
+- `type` : 任务名
+
+- `plant/tile` : 星球/地点
+
+- `archwing`/`sharkwing` : 是否为飞行装甲任务
+
 
