@@ -118,6 +118,7 @@ module.exports = {
                 collapsable: true,
                 children: [
                     ['/document/cleanreader/use', "使用说明"],
+                    ['/document/cleanreader/history', "更新历史"],
                 ]
             }],
         }
