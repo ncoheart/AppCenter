@@ -76,6 +76,35 @@ module.exports = {
                     ['/document/wfa/api/appendix_2', "附录2"],
                 ]
             }],
+            '/document/wfa/data': [{
+                title: 'WFA-API文档（新版）',
+                collapsable: true,
+                children: [
+                    ['/document/wfa/data/', "API介绍"],
+                    ['/document/wfa/data/how_to_apply', "申请权限"],
+                    ['/document/wfa/data/authorize', "获取授权"],
+                    ['/document/wfa/data/warframe_status', "Warframe信息"],
+                    ['/document/wfa/data/warframe_market', "WM 价格查询"],
+                    ['/document/wfa/data/account', "WFA用户查询"],
+                    ['/document/wfa/data/riven_market', "WFA紫卡市场查询"],
+                    ['/document/wfa/data/lib', "资料库查询查询"],
+                    ['/document/wfa/data/sdk_introduce', "SDK说明"],
+                ]
+            }],
+            '/document/wfa/use': [{
+                title: 'WFA使用说明',
+                collapsable: true,
+                children: [
+                    ['/document/wfa/use/', "使用说明"],
+                    ['/document/wfa/use/account', "账户系统"],
+                    ['/document/wfa/use/basic', "游戏信息"],
+                    ['/document/wfa/use/warframemarket', "Warframe Market"],
+                    ['/document/wfa/use/rivenmarket', "紫卡市场"],
+                    ['/document/wfa/use/lib', "资料库"],
+                    ['/document/wfa/use/tools', "工具库"],
+                    ['/document/wfa/use/history', "更新历史"],
+                ]
+            }],
             '/document/pictureshare': [{
                 title: 'Picture Share 说明书',
                 collapsable: true,
