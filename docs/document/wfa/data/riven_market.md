@@ -19,6 +19,19 @@ type: post
 
 平台可选值参照[游戏平台可选值](/document/wfa/data#游戏平台可选值)，不写的话默认为PC。
 
+## 订单状态
+
+- `New` = 0
+- `Trading` = 1
+- `Done` = 2
+- `Suspend` = 3
+- `Off` = 4
+
+## 订单类型
+
+- `Sell` = 0
+- `Buy` = 1
+
 ## 查询物品
 
 WFA紫卡市场查询的是武器或类目的英文，支持的条目名称和类型表请参见[词库](https://github.com/Richasy/WFA_Lexicon/tree/WFA5)内的`WF_Riven`表

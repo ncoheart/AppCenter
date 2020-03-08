@@ -13,10 +13,10 @@ type: post
 
 ## 用户状态
 
-- `Ingame` = 1
-- `Online` = 2
-- `Offline` = 3
-- `Suspend` = 4
+- `Ingame` = 0
+- `Online` = 1
+- `Offline` = 2
+- `Suspend` = 3
 
 ## 批量获取用户简略信息
 
