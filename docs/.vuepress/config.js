@@ -150,6 +150,13 @@ module.exports = {
                     ['/document/cleanreader/history', "更新历史"],
                 ]
             }],
+            '/document/bilibili': [{
+                title: '哔哩说明书',
+                collapsable: true,
+                children: [
+                    ['/document/bilibili/update', "更新历史"],
+                ]
+            }],
         }
     },
     markdown: {
