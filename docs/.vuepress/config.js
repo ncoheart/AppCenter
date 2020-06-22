@@ -154,6 +154,7 @@ module.exports = {
                 title: '哔哩说明书',
                 collapsable: true,
                 children: [
+                    ['/document/bilibili/qa', "常见问题"],
                     ['/document/bilibili/update', "更新历史"],
                 ]
             }],
