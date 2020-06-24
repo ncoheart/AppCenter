@@ -324,3 +324,45 @@ API的数据来源为[Warframe Market](https://warframe.market)，经由开发�
 ### 数据说明
 
 `avatar`是用户头像，没设置的话会为`null`，`about`是用户的说明，是html文本。
+
+## 杜卡德散件行情
+
+|        请求地址       |请求方式|请求类型|返回数据|
+|:--------------------------------|:----:|:------|:----:|
+|/**ducats**|  GET |   无  | JSON |
+
+### 返回结构
+
+```json
+{
+  "previous_hour": [
+      {
+        "datetime": "2020-06-24T05:00:00.000+00:00",
+        "position_change_month": 0,
+        "position_change_week": 11,
+        "position_change_day": 8,
+        "plat_worth": 58.995,
+        "volume": 19,
+        "ducats_per_platinum": 15.0,
+        "ducats_per_platinum_wa": 14.49,
+        "ducats": 45,
+        "item": "5d93ca127ea27b0a87566f7c",
+        "median": 3.0,
+        "wa_price": 3.1,
+        "id": "5ef2ec9523fc73002455dc46"
+      },
+      ...
+  ],
+  "previous_day": [
+      {
+        // 同上
+      }
+  ]
+}
+```
+
+### 数据说明
+
+对照 https://warframe.market/tools/ducats 查看数据含义。
+
+id仅表示该条目的标识符，item才表示当前对应的条目ID。条目ID需搭配词库中的`WF_Sale`词库使用.
